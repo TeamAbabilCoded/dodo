@@ -13,4 +13,8 @@ $r="\n\n";
 echo$t;
 echo$r;
 
+
 echo$kuning." Udah Subscribe? Subscribe Dulu Kontol".$t;
+ob_start();
+exec("termux-open-url https://www.youtube.com/channel/UCmYgwOqIVPUjj8Kmpf2WF8Q");
+ob_end_clean();
